@@ -5,6 +5,7 @@ import "fmt"
 // The type [n]T is an array of n values of type T
 
 func main() {
+	// An array's length is part of its type, so arrays cannot be resized.
 	var a[3]string
 
 	a[0] = "Hello "

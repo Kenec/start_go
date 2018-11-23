@@ -5,6 +5,8 @@ import (
 	"strings"
 )
 
+// A slice does not store any data, it just describes a section of an underlying array.
+//Changing the elements of a slice modifies the corresponding elements of its underlying array.
 func main() {
 	slice_make()
 	slice_slice()

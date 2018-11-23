@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 // The length of a slice is the number of elements it contains.
-//  The length and capacity of a slice s can be obtained using the expressions len(s) and cap(s)
+// The length and capacity of a slice s can be obtained using the expressions len(s) and cap(s)
 
 func main() {
 	// A slice literal is like an array literal without the length
@@ -31,6 +31,7 @@ func main() {
 	sli := q[2:]
 
 	fmt.Println(s)
+	fmt.Println(sli)
 	fmt.Println(cap(sli))
 
 	// The zero value of a slice is nil.
