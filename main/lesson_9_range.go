@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+// When ranging over a slice, two values are returned for each iteration.
+// The first is the index, and the second is a copy of the element at that index.
 func main() {
 	range_slice()
 	fmt.Println(1 >> uint(1))

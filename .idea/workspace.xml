@@ -2,12 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7042179a-f41a-420b-9aa0-d50eb00ad26d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/main/exercise_fibonnaci.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/lesson_10_map.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/lesson_11_function_clusure.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/lesson_8_slice_with_make.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/lesson_9_range.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/lesson_10_map_exercise.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/lesson_11_function_values.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/lesson_13_methods.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/lesson_8_slice_exercise.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/lesson_10_map.go" beforeDir="false" afterPath="$PROJECT_DIR$/main/lesson_10_map.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/lesson_11_function_clusure.go" beforeDir="false" afterPath="$PROJECT_DIR$/main/lesson_12_function_clusure.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/lesson_3_types.go" beforeDir="false" afterPath="$PROJECT_DIR$/main/lesson_3_types.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/lesson_4_general.go" beforeDir="false" afterPath="$PROJECT_DIR$/main/lesson_4_general.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/lesson_5_struct.go" beforeDir="false" afterPath="$PROJECT_DIR$/main/lesson_5_struct.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/lesson_6_array.go" beforeDir="false" afterPath="$PROJECT_DIR$/main/lesson_6_array.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/lesson_7_slice_literal.go" beforeDir="false" afterPath="$PROJECT_DIR$/main/lesson_7_slice_literal.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/lesson_8_slice_with_make.go" beforeDir="false" afterPath="$PROJECT_DIR$/main/lesson_8_slice_with_make.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/lesson_9_range.go" beforeDir="false" afterPath="$PROJECT_DIR$/main/lesson_9_range.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,20 +29,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="lesson_11_function_clusure.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/lesson_11_function_clusure.go">
+      <file leaf-file-name="lesson_13_methods.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main/lesson_13_methods.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="exercise_fibonnaci.go" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main/exercise_fibonnaci.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="12" selection-start-column="12" selection-end-column="12" />
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -58,18 +57,22 @@
         <option value="$PROJECT_DIR$/lessons/lesson_2.go" />
         <option value="$PROJECT_DIR$/lessons/lesson_1.go" />
         <option value="$PROJECT_DIR$/main/lesson_2.go" />
-        <option value="$PROJECT_DIR$/main/lesson_3_types.go" />
-        <option value="$PROJECT_DIR$/main/lesson_4_general.go" />
         <option value="$PROJECT_DIR$/main/lesson_4_pointer.go" />
-        <option value="$PROJECT_DIR$/main/lesson_5_struct.go" />
-        <option value="$PROJECT_DIR$/main/lesson_6_array.go" />
-        <option value="$PROJECT_DIR$/main/lesson_7_slice_literal.go" />
-        <option value="$PROJECT_DIR$/main/lesson_8_slice_with_make.go" />
-        <option value="$PROJECT_DIR$/main/lesson_9_range.go" />
-        <option value="$PROJECT_DIR$/main/lesson_10_map.go" />
         <option value="$PROJECT_DIR$/main/lesson_11.go" />
         <option value="$PROJECT_DIR$/main/lesson_11_function_clusure.go" />
         <option value="$PROJECT_DIR$/main/exercise_fibonnaci.go" />
+        <option value="$PROJECT_DIR$/main/lesson_11_methods.go" />
+        <option value="$PROJECT_DIR$/main/lesson_3_types.go" />
+        <option value="$PROJECT_DIR$/main/lesson_4_general.go" />
+        <option value="$PROJECT_DIR$/main/lesson_5_struct.go" />
+        <option value="$PROJECT_DIR$/main/lesson_6_array.go" />
+        <option value="$PROJECT_DIR$/main/lesson_8_slice_with_make.go" />
+        <option value="$PROJECT_DIR$/main/lesson_7_slice_literal.go" />
+        <option value="$PROJECT_DIR$/main/lesson_9_range.go" />
+        <option value="$PROJECT_DIR$/main/lesson_8_slice_exercise.go" />
+        <option value="$PROJECT_DIR$/main/lesson_10_map.go" />
+        <option value="$PROJECT_DIR$/main/lesson_10_map_exercise.go" />
+        <option value="$PROJECT_DIR$/main/lesson_11_function_values.go" />
       </list>
     </option>
   </component>
@@ -83,8 +86,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="800" />
+    <option name="height" value="736" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -94,6 +98,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -110,7 +115,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -136,13 +140,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build exercise_fibonnaci.go">
-    <configuration name="go build exercise_fibonnaci.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build lesson_13_methods.go">
+    <configuration name="go build lesson_10_map_exercise.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="start_go" />
       <working_directory value="$PROJECT_DIR$/" />
       <go_parameters value="-i" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/main/exercise_fibonnaci.go" />
+      <filePath value="$PROJECT_DIR$/main/lesson_10_map_exercise.go" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
     <configuration name="go build lesson_10_map.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -153,44 +157,44 @@
       <filePath value="$PROJECT_DIR$/main/lesson_10_map.go" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
-    <configuration name="go build lesson_11_function_clusure.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build lesson_11_function_values.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="start_go" />
       <working_directory value="$PROJECT_DIR$/" />
       <go_parameters value="-i" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/main/lesson_11_function_clusure.go" />
+      <filePath value="$PROJECT_DIR$/main/lesson_11_function_values.go" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
-    <configuration name="go build lesson_8_slice_with_make.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build lesson_13_methods.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="start_go" />
       <working_directory value="$PROJECT_DIR$/" />
       <go_parameters value="-i" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/main/lesson_8_slice_with_make.go" />
+      <filePath value="$PROJECT_DIR$/main/lesson_13_methods.go" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
-    <configuration name="go build lesson_9_range.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build lesson_8_slice_exercise.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="start_go" />
       <working_directory value="$PROJECT_DIR$/" />
       <go_parameters value="-i" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/main/lesson_9_range.go" />
+      <filePath value="$PROJECT_DIR$/main/lesson_8_slice_exercise.go" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build lesson_8_slice_with_make.go" />
-      <item itemvalue="Go Build.go build lesson_9_range.go" />
+      <item itemvalue="Go Build.go build lesson_8_slice_exercise.go" />
       <item itemvalue="Go Build.go build lesson_10_map.go" />
-      <item itemvalue="Go Build.go build lesson_11_function_clusure.go" />
-      <item itemvalue="Go Build.go build exercise_fibonnaci.go" />
+      <item itemvalue="Go Build.go build lesson_10_map_exercise.go" />
+      <item itemvalue="Go Build.go build lesson_11_function_values.go" />
+      <item itemvalue="Go Build.go build lesson_13_methods.go" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build exercise_fibonnaci.go" />
-        <item itemvalue="Go Build.go build lesson_11_function_clusure.go" />
+        <item itemvalue="Go Build.go build lesson_13_methods.go" />
+        <item itemvalue="Go Build.go build lesson_11_function_values.go" />
+        <item itemvalue="Go Build.go build lesson_10_map_exercise.go" />
         <item itemvalue="Go Build.go build lesson_10_map.go" />
-        <item itemvalue="Go Build.go build lesson_9_range.go" />
-        <item itemvalue="Go Build.go build lesson_8_slice_with_make.go" />
+        <item itemvalue="Go Build.go build lesson_8_slice_exercise.go" />
       </list>
     </recent_temporary>
   </component>
@@ -204,18 +208,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="736" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989605" visible="true" weight="0.18093699" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989605" visible="true" weight="0.19063005" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32965517" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32965517" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4648276" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37793103" />
       <window_info id="Structure" order="1" sideWeight="0.5010395" side_tool="true" weight="0.17043619" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.40298507" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.40275863" />
       <window_info id="Favorites" order="2" sideWeight="0.5010395" side_tool="true" weight="0.17043619" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -234,13 +238,108 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/main/lesson_13_methods.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/lesson_4_pointer.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/lesson_6_array.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/lesson_10_map.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="54" column="53" selection-start-line="54" selection-start-column="53" selection-end-line="54" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/lesson_7_slice_literal.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" column="24" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/lesson_8_slice_with_make.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="47" column="20" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/lesson_5_struct.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/lesson_4_pointer.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/lesson_6_array.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/lesson_10_map.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="54" column="53" selection-start-line="54" selection-start-column="53" selection-end-line="54" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/lesson_7_slice_literal.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" column="24" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/lesson_8_slice_with_make.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="47" column="20" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/lesson_5_struct.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/lesson_13_methods.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main/lesson_10_map.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-          <folding>
-            <element signature="n#!!block;n#map_test#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -248,11 +347,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="705">
           <caret line="47" column="20" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
-          <folding>
-            <element signature="e#14#42#0" expanded="true" />
-            <element signature="n#!!block;n#slice_slice#0" />
-            <element signature="n#!!block;n#slice_append#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -267,11 +361,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="47" column="20" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
-          <folding>
-            <element signature="e#14#42#0" expanded="true" />
-            <element signature="n#!!block;n#slice_slice#0" />
-            <element signature="n#!!block;n#slice_append#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -318,10 +407,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lessons/lesson_2.go" />
+    <entry file="file://$PROJECT_DIR$/main/exercise_fibonnaci.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main/lesson_1_intro.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <caret line="6" column="1" selection-start-line="6" selection-end-line="6" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -334,86 +430,99 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main/lesson_3_types.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
+        <state relative-caret-position="-287">
+          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main/lesson_4_general.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="94" selection-start-line="4" selection-start-column="94" selection-end-line="4" selection-end-column="94" />
+        <state relative-caret-position="195">
+          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main/lesson_4_pointer.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/lesson_6_array.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/lesson_7_slice_literal.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="40" column="24" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main/lesson_5_struct.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+        <state relative-caret-position="639">
+          <caret line="46" column="31" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/lesson_9_range.go">
+    <entry file="file://$PROJECT_DIR$/main/lesson_6_array.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+        <state relative-caret-position="-4">
+          <caret line="7" column="74" selection-start-line="7" selection-start-column="74" selection-end-line="7" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/lesson_7_slice_literal.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main/lesson_8_slice_with_make.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="47" column="20" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
-          <folding>
-            <element signature="e#14#42#0" expanded="true" />
-            <element signature="n#!!block;n#slice_slice#0" />
-            <element signature="n#!!block;n#slice_append#0" />
-          </folding>
+        <state relative-caret-position="-484">
+          <caret line="8" column="95" selection-start-line="8" selection-start-column="95" selection-end-line="8" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/lesson_9_range.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-31">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/lesson_8_slice_exercise.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main/lesson_10_map.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
-          <folding>
-            <element signature="n#!!block;n#map_test#0" />
-          </folding>
+        <state relative-caret-position="810">
+          <caret line="54" column="38" selection-start-line="54" selection-start-column="38" selection-end-line="54" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/lesson_11_function_clusure.go">
+    <entry file="file://$PROJECT_DIR$/main/lesson_10_map_exercise.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/lesson_11_function_values.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/lesson_12_function_clusure.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/exercise_fibonnaci.go">
+    <entry file="file://$PROJECT_DIR$/main/lesson_13_methods.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        <state relative-caret-position="165">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>

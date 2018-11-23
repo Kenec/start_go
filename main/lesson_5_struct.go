@@ -11,6 +11,12 @@ type Cartesian struct {
 	z int
 }
 
+type AndelaFellows struct {
+	name string
+	age int
+	stack []string
+}
+
 var (
 	v1 = Cartesian{3, 4, 1}
 	v2 = Cartesian{ x:1, y:7 }
@@ -33,5 +39,19 @@ func main() {
 	fmt.Println(p.y)
 
 	fmt.Println(v1, lo, v2, v3)
+	andelans()
 
+}
+
+func andelans() { 
+	Andela_36 := AndelaFellows {
+		name: "Nnamani Kenechukwu",
+		age: 28,
+		stack: []string {
+			"Javascript",
+			"DevOps",
+			"Golang",
+		},
+	}
+	fmt.Println(Andela_36)
 }

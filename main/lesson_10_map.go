@@ -5,6 +5,7 @@ import "fmt"
 func main(){
 	map_test()
 	map_literal_test()
+	map_again()
 }
 
 // map maps keys to values
@@ -38,7 +39,23 @@ func map_literal_test() {
 
 	var m = map[string]Vertex {
 		"Andela Lagos": { 34.44, 334.44},
+		"Andela Nairobi": { 40.89, 21.89},
 	}
 
 	fmt.Println(m)
+}
+
+// Do it your self
+func map_again() {
+	nigeria_population := make(map[string]int)
+	nigeria_population = map[string] int {
+		"Lagos": 23421,
+		"Ondo": 23450,
+	}
+	nigeria_population["Enugu"] = 2345
+	Lagos_population, ok := nigeria_population["Lagos"]
+	fmt.Println(nigeria_population)
+	delete(nigeria_population, "Lagos")
+	fmt.Println(nigeria_population)
+	fmt.Println(Lagos_population, ok)
 }

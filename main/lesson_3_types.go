@@ -24,6 +24,7 @@ import (
 
 // if with short statement
 // the if statement can start with a short statement to execute before the condition.
+var e = false
 
 func pow(x, n, lim float64) float64 {
 	if v := math.Pow(x, n); v < lim {
@@ -78,5 +79,5 @@ func main(){
 
 	fmt.Println(runtime.GOOS)
 
-
+	fmt.Print("e ==> ", e)
 }
