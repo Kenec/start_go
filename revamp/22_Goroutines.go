@@ -1,1 +1,22 @@
 package main
+
+import "fmt"
+
+// A goroutine is a lightweight thread of execution
+func f(from string) {
+	for i := 0; i < 3; i++ {
+		fmt.Println(from, ":", i)
+	}
+}
+
+func main() {
+	f("direct") // running synchronously
+	go f("goroutine") // running asynchronously
+
+	go func(msg string) {
+		fmt.Println(msg)
+	}("going")
+
+	fmt.Scanln()
+	fmt.Println("done")
+}

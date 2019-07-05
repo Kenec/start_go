@@ -11,5 +11,5 @@ func fact(i int) int {
 }
 
 func main() {
-	fmt.Println(fact(9))
+	fmt.Println(fact(4))
 }
